@@ -101,7 +101,7 @@ void main() {
   //Метод
   // 1) Добавили 1 элемент в другую
   map.addAll({
-    'asda' : 'qweqw',
+    'country' : 'Kyrgyzstan',
   });
   map.entries;
   
@@ -114,7 +114,7 @@ void main() {
   //Но можно так !!
   //вызываем print(map[]) и в квадратных скобках кидаем ключ и получаем значение
   print(map['name']);
-  
+
   print(map);
 
   //Не понял это: 
